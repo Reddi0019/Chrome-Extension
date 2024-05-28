@@ -1,0 +1,11 @@
+﻿{
+  "manifest_version": 3,
+  "name": "LinkedIn Feed Image Replacer",
+  "version": "1.0",
+  "description": "Replaces profile pictures in LinkedIn feed posts",
+  "action": {
+    "default_popup":"popup.html"
+   },
+  "permissions": ["scripting", "activeTab"],
+  "host_permissions": ["*://*/*"]
+}
